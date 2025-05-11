@@ -1,0 +1,24 @@
+Stanley de OliveiraSouza
+
+Comandos utilizados:
+1. mkdir tarefa-git
+2. cd tarefa-git
+3. git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead .
+4. echo "Linha inicial do arquivo" > texto.txt
+5. git add texto.txt
+6. git commit -m "Adiciona arquivo texto.txt inicial"
+7. git checkout -b feature-1
+8. echo "Modificação na branch feature-1" > texto.txt
+9. git add texto.txt
+10. git commit -m "Altera texto.txt na feature-1"
+11. git checkout main
+12. echo "Modificação na branch main" > texto.txt
+13. git add texto.txt
+14. git commit -m "Altera texto.txt na main"
+15. git merge feature-1
+16. git add texto.txt
+17. git commit -m "Resolve conflito entre main e feature-1"
+18. git checkout -b add-comandos
+19. git remote add origin-atividade https://github.com/iChosenStan/tarefa2-git-embarcatech.git
+20. git push origin-atividade main
+21. git push origin-atividade add-comandos
